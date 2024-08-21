@@ -1,0 +1,108 @@
+.Nav   {
+    width:100vw ;
+    height: 5vh;
+    background-color: #1F1F1F;
+    color: #fffefe;  
+    position: relative;
+    padding: 5vh 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E9E9E9;
+    
+    
+  }
+  
+  
+  ul li {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    display: inline-block;
+    padding: 1vw;
+    margin-right: 40px;
+    font-size: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; box-shadow: #1F1F1F;
+    
+    }
+    ul li a:hover{
+      color: rgb(18, 130, 130);
+      font-size: 1em;
+      transition: o.44;
+     
+  
+  }
+   
+
+  
+     
+  ul li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      box-shadow: #1F1F1F;
+      
+  }
+  .logo a
+  {    
+      color: rgb(255, 255, 255);
+      float: left;
+      font-size: 3vh;
+      font-family: 'Lucida Handwriting', 'Apple Chancery', cursive, sans-serif;
+      font-weight: bold;
+      
+      }
+  .intro {
+      width: 100%;
+      height: 700px;
+      background-color: yellow;
+  
+  }
+
+  .ri-menu-line  {
+    font-size: 2vw;
+    display: none;
+ }
+  
+  @media (Max-width:700px)  {
+    .Nav{
+           background-color: rgb(249, 249, 249);
+           height: 15vh;
+           width: 200vw;
+           border-bottom: 2px solid #8f8f8f;
+           padding: 4vh 4vh;
+    }
+    ul li { font-size: 15px;
+         font-weight: bold;
+         display: none;
+    
+    }
+    .logo a {
+        font-size: 5vh;
+        font-weight: bold;
+        margin-right: vh;
+    }
+    
+    .ri-menu-line  {
+            font-size: 11vw;
+
+
+
+    }
+    
+}
+
+
+@media (Max-width:1310px)
+ {
+   ul li {
+     display: none;
+
+   } 
+   .ri-menu-line  {
+    font-size: 30px;
+    display: initial;
+    
+
+
+
+}
+}
