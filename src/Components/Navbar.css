@@ -64,7 +64,7 @@
   
   @media (Max-width:700px)  {
     .Nav{
-           background-color: rgb(249, 249, 249);
+           background-color: rgb(0, 0, 0);
            height: 15vh;
            width: 200vw;
            border-bottom: 2px solid #8f8f8f;
